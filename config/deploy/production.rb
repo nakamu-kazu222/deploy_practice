@@ -8,6 +8,7 @@ set :ssh_options, {
   forward_agent: true,
   auth_methods: %w[publickey]
 }
+set :branch, 'main'
 
 # server-based syntax
 # ======================
